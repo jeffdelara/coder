@@ -3,3 +3,15 @@
 :root {
     --main-color: #485fc7;
 }
+
+.sidebar {
+    overflow-y: auto;
+}
+
+.overcontent {
+    overflow-y: auto;
+}
+
+ul li {
+    margin-bottom: .9rem;
+}
