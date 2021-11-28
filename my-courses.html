@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Courses</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <h1 class="navbar-item has-text-white has-text-weight-bold">[coder]</h1>
+      <!-- <a class="navbar-item" href="https://bulma.io">
+        <img src="http://codeschoolbulacan.com/images/codeschoollearning.png" height="28">
+      </a> -->
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Courses
+        </a>
+
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+                Account
+            </a>
+
+            <div class="navbar-dropdown">
+                <a class="navbar-item">
+                My Courses
+                </a>
+                <a class="navbar-item">
+                My Profile
+                </a>
+                
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                Log out
+                </a>
+            </div>
+        </div>
+
+        <a class="navbar-item">Log out</a>
+        
+      </div>
+    </div>
+  </nav>
+
+
+  
+
+
+  <main class="is-fullwidth">
+    <section style="height: 100vh;">
+        <div class="columns is-gapless sidebar" style="height: 100vh;">
+            <div class="column mt-6 is-one-fifth has-background-white-bis">
+                <div class="p-5 mt-2">
+                    <h2 class="subtitle mt-4">Dashboard</h2>
+                    <ul>
+                        <li class="has-text-is-link"><a href="#"><i class="fas fa-book"></i> My Courses</a></li>
+                        <li><i class="far fa-id-badge"></i> My Profile</li>
+                        <li><i class="fas fa-sign-out-alt"></i> Log out</li>
+                    </ul>
+
+                </div>
+                
+            </div>
+
+
+            <div class="column mt-6 overcontent">
+                <div>
+                    <section class="section">
+                        <h1 class="title is-size-2">My Courses</h1>
+                        
+                        <div class="box">
+                            <article class="media">
+                                <figure class="media-left">
+                                <p class="image is-128x128">
+                                    <img src="images/html-css.svg">
+                                </p>
+                                </figure>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <h2 class="is-size-5 pt-2"><a href="#">HTML & CSS</a></h2>
+                                        <p>HTML and CSS is the foundation where all web technology is built. And its important you start your 
+                                                    journey here.</p>
+                                    </div>
+
+                                    <div><a href="#">Go to course <i class="fas fa-arrow-right"></i> </a></div>
+                                </div>
+                                
+                            </article>
+                        </div>
+
+                        
+                        <div class="box">
+                            <article class="media">
+                                <figure class="media-left">
+                                <p class="image is-128x128">
+                                    <img src="images/interaction.svg">
+                                </p>
+                                </figure>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <h2 class="is-size-5 pt-2"><a href="#">Javascript</a></h2>
+                                        <p>The most popular scripting language for the web. Learning javascript is a must-have for any modern web developer.</p>
+                                    </div>
+
+                                    <div><a href="#">Go to course <i class="fas fa-arrow-right"></i> </a></div>
+                                </div>
+                                
+                            </article>
+                        </div>
+
+
+                        <div class="box">
+                            <article class="media">
+                                <figure class="media-left">
+                                <p class="image is-128x128">
+                                    <img src="images/php.svg">
+                                </p>
+                                </figure>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <h2 class="is-size-5 pt-2"><a href="#">PHP & MySQL Web Development</a></h2>
+                                        <p>PHP powers most of the websites on the internet. Learn to code for the server by using PHP as your backend language and MySQL as your database.</p>
+                                    </div>
+
+                                    <div><a href="#">Go to course <i class="fas fa-arrow-right"></i> </a></div>
+                                </div>
+                                
+                            </article>
+                        </div>
+
+
+                    </section>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+  </main>
+
+
+</body>
+</html>
