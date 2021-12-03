@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Dashboard</title>
+  <title>Admin Users</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -79,77 +79,42 @@
             <div class="column mt-6 overcontent">
                 <div>
                     <section class="section">
-                        <h1 class="title is-size-2">Dashboard</h1>
+                        <h1 class="title is-size-2">Users</h1>
                         <div class="level mb-5">
                             <div class="level-left">
-                                <a href="#" class="button is-link is-light"><i class="fas fa-plus mr-2"></i> New course</a>
+                                <a href="#" class="button is-link is-light"><i class="fas fa-plus mr-2"></i> Add user</a>
                             </div>
                             <div class="level-right">
                                 <input class="input is-rounded" type="text" placeholder="Search">
                             </div>
                         </div>
-                        <div class="box">
-                            <article class="media">
-                                <figure class="media-left">
-                                <p class="image is-128x128">
-                                    <img src="images/html-css.svg">
-                                </p>
-                                </figure>
-                                <div class="media-content">
-                                    <div class="content">
-                                        <h2 class="is-size-5 pt-2"><a href="#">HTML & CSS</a></h2>
-                                        <p><span class="tag is-link is-light">&#8369;500</span> <span class="tag is-success is-light">28 Enrollees</span></p>
-                                        <p>HTML and CSS is the foundation where all web technology is built. And its important you start your 
-                                                    journey here.</p>
-                                    </div>
-
-                                    <div><a href="#">Manage <i class="fas fa-arrow-right"></i> </a></div>
-                                </div>
-                                
-                            </article>
-                        </div>
-
                         
-                        <div class="box">
-                            <article class="media">
-                                <figure class="media-left">
-                                <p class="image is-128x128">
-                                    <img src="images/interaction.svg">
-                                </p>
-                                </figure>
-                                <div class="media-content">
-                                    <div class="content">
-                                        <h2 class="is-size-5 pt-2"><a href="#">Javascript</a></h2>
-                                        <p><span class="tag is-link is-light">&#8369;900</span> <span class="tag is-success is-light">59 Enrollees</span></p>
-                                        <p>The most popular scripting language for the web. Learning javascript is a must-have for any modern web developer.</p>
-                                    </div>
-
-                                    <div><a href="#">Manage <i class="fas fa-arrow-right"></i> </a></div>
-                                </div>
-                                
-                            </article>
-                        </div>
-
-
-                        <div class="box">
-                            <article class="media">
-                                <figure class="media-left">
-                                <p class="image is-128x128">
-                                    <img src="images/php.svg">
-                                </p>
-                                </figure>
-                                <div class="media-content">
-                                    <div class="content">
-                                        <h2 class="is-size-5 pt-2"><a href="#">PHP & MySQL Web Development</a></h2>
-                                        <p><span class="tag is-link is-light">&#8369;900</span> <span class="tag is-success is-light">59 Enrollees</span></p>
-                                        <p>PHP powers most of the websites on the internet. Learn to code for the server by using PHP as your backend language and MySQL as your database.</p>
-                                    </div>
-
-                                    <div><a href="#">Manage <i class="fas fa-arrow-right"></i> </a></div>
-                                </div>
-                                
-                            </article>
-                        </div>
+                        <div class="table-container">
+                            <table class="table is-striped is-hoverable is-fullwidth">
+                              <thead>
+                                <th>Full name</th>
+                                <th>Email</th>
+                                <th>Action</th>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td>George Washington</td>
+                                      <td>george@test.com</td>
+                                      <td><a href="#">Show</a> | <a href="#">Edit</a> | <a href="#">Delete</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Jose P. Rizal</td>
+                                    <td>pepe@test.com</td>
+                                    <td><a href="#">Show</a> | <a href="#">Edit</a> | <a href="#">Delete</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Uzumaki Naruto</td>
+                                    <td>naruto@test.com</td>
+                                    <td><a href="#">Show</a> | <a href="#">Edit</a> | <a href="#">Delete</a></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
 
                         <nav class="pagination is-centered" role="navigation" aria-label="pagination">
                             <a class="pagination-previous">Previous</a>
